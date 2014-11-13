@@ -1,0 +1,16 @@
+# Easier navigation: .., ..., ~ and -
+alias ..="cd .."
+alias cd..="cd .."
+alias ...="cd ../.."
+alias ....="cd ../../.."
+alias .....="cd ../../../.."
+alias -- -="cd -"
+
+#my git stuff
+alias gs='git status -sb'
+alias gd='git diff'
+
+#my stuff for virtual machines
+alias startvm='VBoxManage startvm "Ubuntu 14.04 LTS Servera" --type headless'
+alias stopvm='VBoxManage controlvm "Ubuntu 14.04 LTS Servera" poweroff'
+alias resetvm='VBoxManage controlvm "Ubuntu 14.04 LTS Servera" reset'
