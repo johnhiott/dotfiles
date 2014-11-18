@@ -6,8 +6,13 @@ alias .....="cd ../../../.."
 alias -- -="cd -"
 
 #my git stuff
+alias g='git'
 alias gs='git status -sb'
 alias gd='git diff'
+alias conflicts='git diff --name-only --diff-filter=U'
+alias applypatch='apply --ignore-space-change --ignore-whitespace --3way'
+alias checkpatch='apply --ignore-space-change --ignore-whitespace --3way'
+alias makepatch='format-patch -w --stdout'
 
 #my stuff for virtual machines
 alias startvm='VBoxManage startvm "Ubuntu 14.04 LTS Servera" --type headless'
