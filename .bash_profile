@@ -15,5 +15,5 @@ export RBENV_ROOT=/usr/local/var/rbenv
 export PATH="/usr/local/heroku/bin:$PATH"
 
 ### Android SDK PATH
-export PATH="~/Development/adt-bundle-mac-x86_64-20140702/sdk/platform-tools"
-export PATH="~/Development/adt-bundle-mac-x86_64-20140702/sdk/tools"
+export PATH=$PATH:~/Development/adt-bundle-mac-x86_64-20140702/sdk/platform-tools
+export PATH=$PATH:~/Development/adt-bundle-mac-x86_64-20140702/sdk/tools
