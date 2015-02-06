@@ -8,7 +8,7 @@ alias -- -="cd -"
 #my git stuff
 alias g='git'
 alias gs='git status -sb'
-alias gd='git diff'
+alias gd='git diff HEAD'
 alias conflicts='git diff --name-only --diff-filter=U'
 alias applypatch='git apply --ignore-space-change --ignore-whitespace --3way'
 alias checkpatch='apply --ignore-space-change --ignore-whitespace --3way'
