@@ -18,3 +18,9 @@ alias makepatch='git format-patch -w --stdout'
 alias startvm='VBoxManage startvm "Ubuntu 14.04 LTS Servera" --type headless'
 alias stopvm='VBoxManage controlvm "Ubuntu 14.04 LTS Servera" poweroff'
 alias resetvm='VBoxManage controlvm "Ubuntu 14.04 LTS Servera" reset'
+
+alias me='ifconfig en0'
+alias g='git'
+
+alias tos3='aws s3 sync --exclude ".git*" --exclude "*DS_Store*"'
+alias s3s='aws s3 sync'

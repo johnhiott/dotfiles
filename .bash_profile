@@ -18,3 +18,6 @@ export PATH="/usr/local/heroku/bin:$PATH"
 export PATH=$PATH:~/Development/adt-bundle-mac-x86_64-20140702/sdk/platform-tools
 export PATH=$PATH:~/Development/adt-bundle-mac-x86_64-20140702/sdk/tools
 export ANDROID_HOME=~/Development/adt-bundle-mac-x86_64-20140702/sdk
+
+export PATH="/usr/local/bin:$PATH"
+
